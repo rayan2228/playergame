@@ -1,0 +1,21 @@
+@media (min-width:320px) and (max-width:575px){
+    .main {
+        width: 300px;
+        height: auto;
+    }
+    .main h1 {
+        font-size: 27px;
+    }
+    .main form p {
+        margin: 10px 0px;
+    }
+    .main form input {
+        width: 173px;
+        margin-left: 0px;;
+    }
+    .main .vs {
+        display: block;
+        margin: 0px;
+        font-size: 22px;
+    }
+}

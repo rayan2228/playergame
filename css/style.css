@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #3D56B2;
+}
+
+.main {
+    width: 550px;
+    height: 305px;
+    background: #5C7AEA;
+    padding: 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.main h1 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.main .winning {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.main .winningscore {
+    color: rgb(255, 251, 0);
+}
+
+.main form {
+    margin: 15px 0px;
+}
+
+.main form p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.main form input {
+    width: 200px;
+    padding: 8px;
+    margin-left: 10px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.main form input::placeholder {
+    color: whitesmoke;
+}
+
+.main form input:focus {
+    color: whitesmoke;
+}
+
+.main form button {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.main .score , .winningplayer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin: 15px 0px;
+}
+
+.main .playeronescore,
+.playertwoscore {
+    color: rgb(255, 251, 0);
+    margin: 0px 10px ;
+    font-size: 25px;
+}
+.main .vs{
+    font-size: 28px;
+    margin: 0px 15px;
+}
+.main .player1,
+.player2 {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+.main .player1:disabled , .player2:disabled{
+    color: rgb(204, 204, 204);
+    background: rgb(116, 116, 116);
+}
+.main .reset{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    background: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title>PlayerVsPlayer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Player Vs PLayer</h1>
+            <p class="winning">Winning Score : <span class="winningscore"></span></p>
+            <form>
+                <p>Change Winning Score</p>
+                <input type="number" id="number" placeholder="Change Winning Number">
+                <button>Change</button>
+            </form>
+            <p class="score">Player One Score = <span class="playeronescore"></span><span class="vs"> VS </span> Player Two Score = <span
+                    class="playertwoscore"></span></p>
+            <p class="winningplayer"></p>
+            <button class="player1">Player One</button>
+            <button class="player2">Player Two</button>
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
